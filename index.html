@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پایتون پرو - آموزش برنامه نویسی پایتون</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="ri-code-s-slash-line"></i>
+                <span>پایتون‌پرو</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">دوره‌ها</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">درباره ما</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">تماس با ما</a>
+                </li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn-login">ورود</button>
+                <button class="btn-register">ثبت‌نام</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">پایتون</span>
+                    را قورت بده!
+                </h1>
+                <p class="hero-description">
+                    از صفر تا صد برنامه‌نویسی پایتون با بهترین متدهای آموزشی. 
+                    تبدیل شو به یک توسعه‌دهنده حرفه‌ای در کمتر از ۶ ماه!
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">شروع یادگیری</button>
+                    <button class="btn-secondary">
+                        <i class="ri-play-circle-line"></i>
+                        مشاهده ویدیو
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">۰+</span>
+                        <span class="stat-label">دانشجو</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">۰+</span>
+                        <span class="stat-label">درس</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">۰%</span>
+                        <span class="stat-label">رضایت</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="window-title">python_code.py</div>
+                    </div>
+                    <div class="code-content">
+                        <pre><code class="python-code">
+def welcome():
+    print("Hello World! 👋")
+    print("Python Learning Started!")
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+    
+    def learn(self):
+        return f"{self.name} is learning Python!"
+
+student = Student("You")
+welcome()
+print(student.learn())
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">دوره‌های تخصصی پایتون</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="ri-brackets-line"></i>
+                    </div>
+                    <h3>پایتون مقدماتی</h3>
+                    <p>یادگیری اصول اولیه پایتون برای شروع برنامه‌نویسی</p>
+                    <div class="course-features">
+                        <span><i class="ri-check-line"></i> ۴۰ ساعت ویدیوی آموزشی</span>
+                        <span><i class="ri-check-line"></i> ۱۰ پروژه عملی</span>
+                        <span><i class="ri-check-line"></i> پشتیبانی آنلاین</span>
+                    </div>
+                    <button class="btn-course">شروع دوره</button>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="ri-database-2-line"></i>
+                    </div>
+                    <h3>علم داده با پایتون</h3>
+                    <p>تحلیل داده‌ها با کتابخانه‌های Pandas, NumPy و Matplotlib</p>
+                    <div class="course-features">
+                        <span><i class="ri-check-line"></i> ۶۰ ساعت ویدیوی پیشرفته</span>
+                        <span><i class="ri-check-line"></i> پروژه‌های واقعی صنعتی</span>
+                        <span><i class="ri-check-line"></i> تمرین‌های تعاملی</span>
+                    </div>
+                    <button class="btn-course">شروع دوره</button>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="ri-brain-line"></i>
+                    </div>
+                    <h3>هوش مصنوعی و ماشین لرنینگ</h3>
+                    <p>یادگیری ماشین و Deep Learning با پایتون</p>
+                    <div class="course-features">
+                        <span><i class="ri-check-line"></i> ۸۰ ساعت ویدیوی تخصصی</span>
+                        <span><i class="ri-check-line"></i> مدل‌های پیشرفته هوش مصنوعی</span>
+                        <span><i class="ri-check-line"></i> پیاده‌سازی پروژه‌های واقعی</span>
+                    </div>
+                    <button class="btn-course">شروع دوره</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">چرا پایتون پرو؟</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="ri-graduation-cap-line"></i>
+                    </div>
+                    <h3>آموزش پروژه‌محور</h3>
+                    <p>یادگیری با انجام پروژه‌های واقعی و کاربردی در بازار کار</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="ri-community-line"></i>
+                    </div>
+                    <h3>جامعه فعال</h3>
+                    <p>عضویت در جامعه‌ای از برنامه‌نویسان و متخصصان پایتون</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="ri-briefcase-line"></i>
+                    </div>
+                    <h3>پشتیبانی شغلی</h3>
+                    <p>مشاوره شغلی و معرفی به شرکت‌های معتبر</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="ri-infinity-line"></i>
+                    </div>
+                    <h3>دسترسی مادام‌العمر</h3>
+                    <p>دسترسی همیشگی به محتوای دوره‌ها و آپدیت‌ها</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>پایتون‌پرو</h3>
+                    <p>آموزش پایتون به سبکی متفاوت و حرفه‌ای</p>
+                    <div class="social-links">
+                        <a href="#"><i class="ri-telegram-line"></i></a>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-linkedin-line"></i></a>
+                        <a href="#"><i class="ri-github-line"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>لینک‌های سریع</h4>
+                    <ul>
+                        <li><a href="#home">خانه</a></li>
+                        <li><a href="#courses">دوره‌ها</a></li>
+                        <li><a href="#about">درباره ما</a></li>
+                        <li><a href="#contact">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>دوره‌ها</h4>
+                    <ul>
+                        <li><a href="#">پایتون مقدماتی</a></li>
+                        <li><a href="#">علم داده</a></li>
+                        <li><a href="#">هوش مصنوعی</a></li>
+                        <li><a href="#">توسعه وب</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تماس با ما</h4>
+                    <ul>
+                        <li><i class="ri-phone-line"></i> ۰۲۱-۱۲۳۴۵۶۷۸</li>
+                        <li><i class="ri-mail-line"></i> info@pythonpro.ir</li>
+                        <li><i class="ri-map-pin-line"></i> تهران، خیابان آزادی</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ۲۰۲۴ پایتون پرو. تمام حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
