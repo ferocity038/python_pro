@@ -9,9 +9,9 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #7c3aed;
-    --accent-color: #06b6d4;
+    --primary-color: #f63b3b;
+    --secondary-color: #ed3a3a;
+    --accent-color: #d40606;
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
     --bg-primary: #ffffff;
@@ -20,10 +20,10 @@
     --border-color: #e5e7eb;
     --shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 25px 50px rgba(0, 0, 0, 0.15);
-    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-gradient: linear-gradient(135deg, #ff0000 0%, #911111 100%);
     --card-bg: #ffffff;
     --nav-bg: rgba(255, 255, 255, 0.95);
-    --footer-bg: #1f2937;
+   --footer-bg: #911111;
     --border-radius: 12px;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --font-fa: 'Vazirmatn', 'Vazir', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,9 +32,9 @@
 }
 
 [data-theme="dark"] {
-    --primary-color: #3b82f6;
-    --secondary-color: #8b5cf6;
-    --accent-color: #06b6d4;
+    --primary-color: #f63b3b;
+    --secondary-color: #ed3a3a;
+    --accent-color: #d40606;
     --text-primary: #f9fafb;
     --text-secondary: #d1d5db;
     --bg-primary: #111827;
@@ -43,10 +43,10 @@
     --border-color: #4b5563;
     --shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
     --shadow-lg: 0 25px 50px rgba(0, 0, 0, 0.4);
-    --bg-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --bg-gradient: linear-gradient(135deg, #ff0000 0%, #911111 100%);
     --card-bg: #1f2937;
     --nav-bg: rgba(17, 24, 39, 0.95);
-    --footer-bg: #030712;
+    --footer-bg: #911111;
 }
 
 html {
@@ -273,7 +273,7 @@ body {
 }
 
 .gradient-text {
-    background: linear-gradient(45deg, #fbbf24, #ef4444, #8b5cf6);
+    background: linear-gradient(45deg, #000000, #000000, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
